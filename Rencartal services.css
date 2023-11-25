@@ -1,0 +1,399 @@
+body{
+    padding: opx;
+    margin: 0px;
+    background-size: cover;
+    box-sizing: content-box;
+}
+body div{
+    display: flex;
+    flex-direction: row;
+}
+#forehead{
+    position: fixed;
+    height: 5rem;
+    background:linear-gradient(to left, rgb(4, 17, 57), rgb(169, 177, 11));
+    width: 100vw;
+}
+.container{
+    border: 0.1px solid rgb(86, 165, 235, 0.25);
+    height: auto;
+    flex-direction: column;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo{
+    flex-direction: row;
+    cursor: text;
+    position: absolute;
+    left: 2rem;
+    top: 1rem;
+}
+.menu{
+    position: absolute;
+    left: 90rem;
+    top: 1.5rem;
+    cursor: pointer;
+}
+.menu-content{
+    display: none;
+    position: absolute;
+    right: -3rem;
+    top: 1.5rem;
+    background-color: rgb(4, 17, 57);
+    color: rgb(169, 177, 11);
+    width: 11rem;
+    min-height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 20px;
+    border-radius: 12px;
+}
+.menu-content a{
+    text-decoration: none;
+    color: rgb(169, 177, 11);
+}
+/* .menu-content br{
+    text-decoration-color: blueviolet;
+} */
+.menu:hover .menu-content{
+    display: block;  
+    margin-right: 1rem;
+}
+
+.links{
+    position: absolute;
+    top: 0.85rem;
+    gap: 1.5rem;
+    left: 55rem;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+}
+footer{
+    background-color: rgb(169, 177, 11);
+    height: 68vh;
+    justify-content: center; 
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 55rem;
+}
+.s1{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(./adam-stefanca-hdMSxGizchk-unsplash2.jpg);
+    background-size: cover;
+    color: rgb(4, 17, 57);
+}
+.s1 h1{
+    font-size: 42px;
+    margin-top: 7rem;
+}
+.s2{
+    height: 50vh;
+    font-size: medium;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    padding:2rem;
+    cursor: pointer;
+    text-align: justify;
+    background:linear-gradient(to right, rgb(4, 17, 57), rgb(169, 177, 11));
+    color: white;
+}
+.s3{
+    height: 30vh;
+    font-size: medium;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 10px;
+    cursor: pointer;
+    text-align: justify;
+}
+
+text{
+    color: rgb(4, 17, 57);
+    text-align: center;
+    width: 80px;
+    font-size: 14px;
+    margin-top: 6rem;
+    margin-left: 3rem;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+#about{
+    color: rgb(4, 17, 57);
+    text-align: justify;
+    width: 600px;
+    font-size: 14px;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+#address{
+    color: rgb(4, 17, 57);
+    text-align: justify;
+    width: 600px;
+    font-size: 14px;
+    margin-top: 4.5rem;
+    margin-left: 3rem;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+#contact{
+    color: rgb(4, 17, 57);
+    text-align: justify;
+    width: 200px;
+    font-size: 14px;
+    margin-top: 6.5rem;
+    margin-left: 3rem;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+#handles, #fbk, #ig, #lkd, #wa, #xt{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    text-align: justify;
+    gap: 7px;
+    cursor: pointer;
+}
+#fbk{
+    margin-left: 0rem;
+    margin-top: -0.5rem;
+}
+#ig{
+    margin-left: 1rem;
+    margin-top: -0.5rem;
+}
+#lkd{
+    margin-left: 2rem;
+    margin-top: -0.5rem;
+}
+#wa{
+    margin-left: 3rem;
+    margin-top: -0.5rem;
+}
+#xt{
+    margin-left: 4rem;
+    margin-top: -0.5rem;
+}
+
+/* Inclusion of the Share Page */
+
+#frontdisplay{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+}
+#frontdisplay h2{
+    font-weight: 120px;
+    font-size: 60px;
+    color: rgb(4, 17, 57);
+    text-align: right;
+    margin-right: 60rem;
+}
+#frontdisplay h4{
+    font-weight: 50px;
+    font-size: 25px;
+    color: rgb(4, 17, 57);
+    text-align: right;
+    margin-right: 60rem;
+    margin-top: -2rem;
+}
+#frontdisplay h2:hover, #frontdisplay h4:hover{
+    color: white;
+}
+#frontdisplay button{
+    background-color:rgb(4, 17, 57);
+    width: 10rem;
+    height: 3rem;font-size: large;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 65rem;
+    margin-top: 3rem;
+}
+#frontdisplay button:hover{
+    background-color: rgb(169, 177, 11); 
+}
+.mini-container{
+    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.mini-container h2{
+    font-size: 45px;
+    height: 20vh;
+    margin-top: 4rem;
+    color: rgb(4, 17, 57);
+}
+.mini-container p{
+    font-size: 20px;
+    text-align: right;
+    margin-top: 1.8rem;
+}
+.new{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(169, 177, 11);
+    margin: 2rem;
+    height: 50vh;
+    border-radius: 15px;
+}
+.new img{
+    height: 250px;
+    width: 500px;
+    margin: 2rem;
+    border-radius: 12px;
+}
+.new h2{
+    font-size: 25px;
+    margin-top: 3rem;
+}
+.new p{
+    font-size: 20px;
+    text-align: justify;
+    position: relative;
+    margin-right: 3rem;
+}
+.new button{
+    height: 2rem;
+    width: 10rem;
+    background-color: white;
+    border-color:rgb(4, 17, 57);
+    color: rgb(4, 17, 57);
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin-left: 28rem;
+    position: inherit;
+    top: -7rem;
+    border-radius: 8px;
+}
+.new button:hover{
+    color: rgb(169, 177, 11);
+    background-color: rgb(4, 17, 57);
+}
+.word{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.word span{
+    top: 1rem;
+    font-size: 48px;
+    font-weight: 150px;
+    width: 350px;
+    text-align: right;
+    color: rgb(169, 177, 11);
+}
+.word h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+    text-align: left;
+    color: rgb(4, 17, 57);
+    font-size: 32px;
+}
+.old{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2rem;
+    height: 40vh;
+    margin-top: 5rem;
+    width: 90rem;
+    height: 350px;
+    align-self: center;
+    border-radius: 15px;
+    padding: 10px;
+    gap: 3rem;
+    background-color: rgb(242, 247, 147);
+}
+.old h2, .old p{
+    text-align: center;
+}
+.s4{
+    background-color: rgb(4, 17, 57);
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.s4 h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.s4 button{
+    background-color: rgb(169, 177, 11);
+    margin-left: 45%;
+    margin-top:0%;
+    height: 2rem;
+    width: 8rem;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.s4 button:hover{
+    color: rgb(4, 17, 57);
+    background-color: white;
+}
+.s4 h4 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(169, 177, 11);
+    cursor: pointer;
+}
+.s4 h4 span:hover{
+    background-color: rgb(169, 177, 11);
+    color: rgb(4, 17, 57); 
+}
+.s4 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s4 ul li{
+    margin-right: 3rem;
+    list-style: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 13px;
+}
+.s4 ul li:hover{
+    color: rgb(169, 177, 11); 
+}
+

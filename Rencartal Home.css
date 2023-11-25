@@ -1,0 +1,401 @@
+body{
+    padding: opx;
+    margin: 0px;
+    background-size: cover;
+    box-sizing: content-box;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+#forehead{
+    position: fixed;
+    height: 5rem;
+    background:linear-gradient(to left, rgb(4, 17, 57), rgb(169, 177, 11));
+    width: 100vw;
+}
+body div{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    border: 0.1px solid rgb(86, 165, 235, 0.25);
+    height: auto;
+    flex-direction: column;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo{
+    flex-direction: row;
+    cursor: text;
+    position: absolute;
+    left: 2rem;
+    top: 1rem;
+}
+.menu{
+    position: absolute;
+    left: 90rem;
+    top: 1.5rem;
+    cursor: pointer;
+}
+.menu-content{
+    display: none;
+    position: absolute;
+    right: -3rem;
+    top: 1.5rem;
+    background-color:   rgb(169, 177, 11);
+    color: rgb(4, 17, 57);
+    width: 11rem;
+    border-radius: 12px;
+    min-height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 20px;
+}
+.menu-content a{
+    text-decoration: none;
+    color: rgb(4, 17, 57);
+}
+
+.menu:hover .menu-content{
+    display: block;  
+    margin-right: 1rem;
+}
+
+.links{
+    position: absolute;
+    top: 0.85rem;
+    gap: 1.5rem;
+    left: 55rem;
+}
+
+ul a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: right; */
+    text-align: left;
+    height: 80vh;
+    background-image: url(./adam-stefanca-hdMSxGizchk-unsplash2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav h1{
+    color: rgb(4, 17, 57);
+    margin-top: -14rem;
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 5rem;
+}
+#headline{
+    font-size: 25px;
+    position: absolute;
+    top: 11.5rem;
+}
+nav span{
+    position: absolute;
+    /* color: white; */
+    color: rgb(4, 17, 57);
+    font-size: 22px;
+    font-weight: bold;
+    top: 13.5rem;
+    margin-left: 5rem;
+}
+#member{
+    font-size: 15px;
+    position: absolute;
+    top: 32rem;
+    margin-left: 42rem;
+    border-radius: 10px;
+    background-color: rgb(4, 17, 57);
+    color:  rgb(169, 177, 11);
+    border: none;
+    cursor: pointer;
+}
+#member:hover{
+    box-shadow: 0 0.5rem 1.4rem 0 rgba(3, 46, 68, 0.5);
+    transform: translateY(-0.3rem);
+    transition: transform 200ms;
+}
+.sectionhead{
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    background-color: rgb(4, 17, 57);
+    height: 55vh;
+}
+#innerbox{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    padding: 0.2rem;
+    margin-left: 14rem;
+    background-color: whitesmoke;
+    border-radius: 12px;
+}
+#list{
+    font-size: 16px;
+    margin-top: 3.5rem;
+}
+#list span{
+    color: rgb(169, 177, 11);
+    margin-left: 2rem;
+}
+.sectionhead h1{
+    text-align: center;
+    color:  rgb(169, 177, 11);
+}
+header sup{
+    color:rgb(169, 177, 11);
+    font-size: 10.5px;
+    font-weight: lighter;
+}
+
+#list ol{
+    color: rgb(169, 177, 11);
+}
+
+section h2{
+    font-size: medium;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-auto-flow: dense;
+    justify-items: center;
+    text-align: center;
+}
+section a{
+    text-decoration: none;
+}
+.s1{
+    height: 65vh;
+    font-size: medium;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-left: 3rem;
+    /* margin-right: 3rem; */
+    padding: 8px;
+    cursor: pointer;
+}
+.s2{
+    height: 40vh;
+    font-size: medium;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-left: 1rem;
+    padding: 15px;
+    cursor: pointer;
+}
+.s3{
+    height: 50vh;
+    font-size: medium;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-left: 10rem;
+    padding: 10px;
+    cursor: pointer;
+}
+form span{
+    color: rgb(4, 17, 57);
+}
+.s5{
+    height: 40vh;
+    font-size: medium;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 15px;
+    text-align: justify;
+    color: rgb(169, 177, 11);
+}
+.s5 a{
+    text-decoration: none;
+    color: rgb(4, 17, 57);
+}
+
+.s6{
+    height: 30vh;
+    font-size: medium;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: justify;
+    color: rgb(169, 177, 11);
+}
+.s6 a{
+    text-decoration: none;
+    color: rgb(4, 17, 57);
+}
+
+#s3a:hover, #s3b:hover, #s2a:hover, #s2b:hover, #s2c:hover, #s1a:hover, #s1b:hover{
+    transform: scale(1.05);
+    opacity: 0.3;
+}
+section div{
+    border-radius: 10px;
+}
+section img{
+    border-radius: 10px 0px 0px 10px;
+}
+footer{
+    background-color: rgb(169, 177, 11);
+    height: 68vh;
+    justify-content: center; 
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 55rem;
+}
+
+text{
+    color: rgb(4, 17, 57);
+    text-align: center;
+    width: 80px;
+    font-size: 14px;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+}
+#about{
+    color: rgb(4, 17, 57);
+    text-align: justify;
+    width: 600px;
+    font-size: 14px;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+#address{
+    color: rgb(4, 17, 57);
+    text-align: justify;
+    width: 600px;
+    font-size: 14px;
+    margin-top: 4.5rem;
+    margin-left: 3rem;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+#contact{
+    color: rgb(4, 17, 57);
+    text-align: justify;
+    width: 200px;
+    font-size: 14px;
+    /* font-weight: 34px; */
+    margin-top: 4.5rem;
+    margin-left: 3rem;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+#handles, #fbk, #ig, #lkd, #wa, #xt{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    text-align: justify;
+    gap: 7px;
+    cursor: pointer;
+}
+#fbk{
+    margin-left: 0rem;
+    margin-top: -0.5rem;
+}
+#ig{
+    margin-left: 1rem;
+    margin-top: -0.5rem;
+}
+#lkd{
+    margin-left: 2rem;
+    margin-top: -0.5rem;
+}
+#wa{
+    margin-left: 3rem;
+    margin-top: -0.5rem;
+}
+#xt{
+    margin-left: 4rem;
+    margin-top: -0.5rem;
+}
+
+
+
+
+/* @media screen and (min-width: 480px) {
+    nav{width: 100vw; display: flex; flex-direction: column; flex-wrap: wrap;}
+    section{width: 100vw; display: flex; flex-wrap: wrap;}
+    footer{width: 100vw; display: flex; flex-wrap: wrap;}
+    .container{width: 100vw; display: flex; flex-wrap: wrap;}
+    .s1{width: 100vw; display: flex; flex-wrap: wrap;}
+    .s2{width: 100vw; display: flex; flex-wrap: wrap;}
+    .s3{width: 100vw; display: flex; flex-wrap: wrap;}
+    .s4{width: 100vw; display: flex; flex-wrap: wrap;}
+    .s5{width: 100vw; display: flex; flex-wrap: wrap;}
+    .s6{width: 100vw; display: flex; flex-wrap: wrap;}
+    #forehead{width: 100vw; display: flex; flex-wrap: wrap;}
+    #member{width: 100vw; display: flex; flex-wrap: wrap;}
+    #innerbox{width: 100vw; display: flex; flex-wrap: wrap;}
+} */
+
+    /* The navbar container */
+/* nav {
+    overflow: hidden;
+    background-color: #333;
+  } */
+  
+  /* Navbar links */
+  /* nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+} */
+
+  /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+/* @media screen and (max-width: 600px) {
+    nav a{
+      float: none;
+      width: 100%;
+    }
+  } */
